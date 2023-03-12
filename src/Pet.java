@@ -12,4 +12,8 @@
 //Формат входных данных: количество строк с записями о домашних животных,
 // затем сами записи в описанном формате.
 public class Pet {
+  private Kind kind;
+  private String name;
+  private String birth;
+  public double weight;
 }
