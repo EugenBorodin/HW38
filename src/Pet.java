@@ -16,4 +16,42 @@ public class Pet {
   private String name;
   private String birth;
   public double weight;
+
+  public Pet(String name, String birth, double weight) {
+    this.name = name;
+    this.birth = birth;
+    this.weight = weight;
+  }
+
+  public double getWeight() {
+    return weight;
+  }
+
+  public Kind getKind() {
+    return kind;
+  }
+
+  public String getBirth() {
+    return birth;
+  }
+
+  public String getName() {
+    return name;
+  }
+
+  public void setBirth(String birth) {
+    this.birth = birth;
+  }
+
+  public void setKind(Kind kind) {
+    this.kind = kind;
+  }
+
+  public void setName(String name) {
+    this.name = name;
+  }
+
+  public void setWeight(double weight) {
+    this.weight = weight;
+  }
 }
