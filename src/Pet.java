@@ -19,6 +19,8 @@ public class Pet {
     this.weight = weight;
   }
 
+
+
   public double getWeight() {
     return weight;
   }
@@ -57,7 +59,12 @@ public class Pet {
 //Формат входных данных: количество строк с записями о домашних животных,
 // затем сами записи в описанном формате.
   public static Pet createAnimal(Kind DOG, String name) {
-    return new Pet()
-
+    return new Pet();
+  }
+  public static Pet createAnimal(Kind CAT, String name, Double weight) {
+    return new Pet();
+  }
+  public static Pet createAnimal(Kind Other, String name, Double weight, String birth) {
+    return new Pet();
   }
 }
